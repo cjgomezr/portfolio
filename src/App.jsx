@@ -7,16 +7,13 @@ import Contact from "./components/Contact"
 
 
 function App() {
-
-
-  return (
- 
+  return ( 
     <div>
      <Navbar />
      <Home />
      <About />
      <Skills />
-     <Work />
+     {/*<Work />*/}
      <Contact />
     </div>
   )
